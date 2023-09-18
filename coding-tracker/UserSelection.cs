@@ -10,14 +10,16 @@ namespace coding_tracker
     {
         internal void AddTracker()
         {
+            DatabaseQueries.CreateDatabaseAndTable();
             DateTime now = DateTime.Now;
             string formattedDate = now.ToString("dd MMMM yyyy");
             Console.WriteLine($"You have coded ____ hours today ({formattedDate})");
+            DatabaseQueries.InsertValuesIntoTable("hi", "hello", "heya", "Mornign");
         }
 
         internal void ViewTrackers() 
         {
-
+            DatabaseQueries.FetchValues();
         }
     }
 }
