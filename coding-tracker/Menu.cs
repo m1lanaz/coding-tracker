@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace coding_tracker
 {
-    internal class Class1
+    internal class Menu
     {
+        internal void showMenu()
+        {
+            Console.WriteLine("Hello");
+        }
+
     }
 }
