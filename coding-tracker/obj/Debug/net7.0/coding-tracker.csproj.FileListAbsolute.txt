@@ -1,0 +1,14 @@
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\bin\Debug\net7.0\coding-tracker.exe
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\bin\Debug\net7.0\coding-tracker.deps.json
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\bin\Debug\net7.0\coding-tracker.runtimeconfig.json
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\bin\Debug\net7.0\coding-tracker.dll
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\bin\Debug\net7.0\coding-tracker.pdb
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.AssemblyInfoInputs.cache
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.AssemblyInfo.cs
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.csproj.CoreCompileInputs.cache
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.dll
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\refint\coding-tracker.dll
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.pdb
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\coding-tracker.genruntimeconfig.cache
+C:\Users\Milana\Documents\Github\coding-tracker\coding-tracker\obj\Debug\net7.0\ref\coding-tracker.dll
