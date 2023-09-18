@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+oJ02wYoETMb13s6GeW7GBACU3cyzPKQ1FoAgvfOhPimKr0Djm9/tKJURJz9rmWRJHNHMrHiFscwVQJutlIhqA==",
+  "dgSpecHash": "65dikGon4b0jrAQpA3LHtl4H2U0grjFQ3hTU5mrZWgyOdG0rCv4J0CPYUJMVh9w6ARd7jmApg2FjUIfo2KDNRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Milana\\Documents\\Github\\coding-tracker\\coding-tracker\\coding-tracker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Milana\\.nuget\\packages\\consoletableext\\3.2.0\\consoletableext.3.2.0.nupkg.sha512",
     "C:\\Users\\Milana\\.nuget\\packages\\microsoft.data.sqlite\\7.0.11\\microsoft.data.sqlite.7.0.11.nupkg.sha512",
     "C:\\Users\\Milana\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\Milana\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
