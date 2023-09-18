@@ -8,18 +8,18 @@
     ".NETCoreApp,Version=v7.0": {
       "coding-tracker/1.0.0": {
         "dependencies": {
-          "ConsoleTableExt": "3.2.0",
+          "ConsoleTables": "2.5.0",
           "Microsoft.Data.Sqlite": "7.0.11"
         },
         "runtime": {
           "coding-tracker.dll": {}
         }
       },
-      "ConsoleTableExt/3.2.0": {
+      "ConsoleTables/2.5.0": {
         "runtime": {
-          "lib/netstandard2.0/ConsoleTableExt.dll": {
-            "assemblyVersion": "3.1.9.0",
-            "fileVersion": "3.1.9.0"
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.0"
           }
         }
       },
@@ -202,12 +202,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ConsoleTableExt/3.2.0": {
+    "ConsoleTables/2.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IhaHj6R2vSbb781aRXngan6nKRp8R5rnL2X5fL0uRW2wRiFyCIUh81T/QOih0//PjzoXMk2Uv4ayBAGDLH338A==",
-      "path": "consoletableext/3.2.0",
-      "hashPath": "consoletableext.3.2.0.nupkg.sha512"
+      "sha512": "sha512-lfXLGH1coDInONveyIW5ufJWT/P5KbMRRV0cbR7CBnoZLNLZeTY51QUrAmtsX+gIWj7xlY9FSmg1sBYhXMmuuw==",
+      "path": "consoletables/2.5.0",
+      "hashPath": "consoletables.2.5.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite/7.0.11": {
       "type": "package",

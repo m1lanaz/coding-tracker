@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
+﻿using ConsoleTables;
+using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,15 +84,20 @@ namespace coding_tracker
 
                     using (SqliteDataReader reader = command.ExecuteReader())
                     {
+                        var table = new ConsoleTable("Date", "Time Started", "Time Finished", "Duration");
+
                         while (reader.Read())
                         {
+
                             string dateTracked = reader.GetString(0);
                             string timeStarted = reader.GetString(1);
                             string timeFinished = reader.GetString(2);
                             string duration = reader.GetString(3);
 
-                            Console.WriteLine($"Date: {dateTracked}, Time Started: {timeStarted}, Time Finished: {timeFinished}, Duration: {duration}");
+                            table.AddRow(dateTracked, timeStarted, timeFinished, duration);
+
                         }
+                        table.Write();
                     }
                 }
                 conn.Close();
