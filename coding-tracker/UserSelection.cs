@@ -19,7 +19,17 @@ namespace coding_tracker
 
         internal void ViewTrackers() 
         {
-            DatabaseQueries.FetchValues();
+            var menu = new Menu();
+            try
+            {
+                DatabaseQueries.FetchValues();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("You haven't tracked any hours!");
+                Thread.Sleep(1500);
+                menu.backMenu();
+            }
         }
     }
 }

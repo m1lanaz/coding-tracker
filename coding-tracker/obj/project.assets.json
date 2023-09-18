@@ -2,13 +2,17 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "ConsoleTableExt/3.2.0": {
+      "ConsoleTables/2.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/ConsoleTableExt.dll": {}
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/ConsoleTableExt.dll": {}
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Microsoft.Data.Sqlite/7.0.11": {
@@ -195,18 +199,19 @@
     }
   },
   "libraries": {
-    "ConsoleTableExt/3.2.0": {
-      "sha512": "IhaHj6R2vSbb781aRXngan6nKRp8R5rnL2X5fL0uRW2wRiFyCIUh81T/QOih0//PjzoXMk2Uv4ayBAGDLH338A==",
+    "ConsoleTables/2.5.0": {
+      "sha512": "lfXLGH1coDInONveyIW5ufJWT/P5KbMRRV0cbR7CBnoZLNLZeTY51QUrAmtsX+gIWj7xlY9FSmg1sBYhXMmuuw==",
       "type": "package",
-      "path": "consoletableext/3.2.0",
+      "path": "consoletables/2.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "consoletableext.3.2.0.nupkg.sha512",
-        "consoletableext.nuspec",
-        "lib/net35/ConsoleTableExt.dll",
-        "lib/net46/ConsoleTableExt.dll",
-        "lib/netstandard2.0/ConsoleTableExt.dll"
+        "Readme.md",
+        "consoletables.2.5.0.nupkg.sha512",
+        "consoletables.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/ConsoleTables.dll",
+        "lib/netstandard2.1/ConsoleTables.pdb"
       ]
     },
     "Microsoft.Data.Sqlite/7.0.11": {
@@ -352,7 +357,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ConsoleTableExt >= 3.2.0",
+      "ConsoleTables >= 2.5.0",
       "Microsoft.Data.Sqlite >= 7.0.11"
     ]
   },
@@ -395,9 +400,9 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "ConsoleTableExt": {
+          "ConsoleTables": {
             "target": "Package",
-            "version": "[3.2.0, )"
+            "version": "[2.5.0, )"
           },
           "Microsoft.Data.Sqlite": {
             "target": "Package",

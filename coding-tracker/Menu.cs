@@ -46,6 +46,7 @@ e - Exit the application");
         {
 
             var selected = false;
+            var menu = new Menu();
             do
             {
                 Console.WriteLine($@"Would you like to go back to main menu? Please select one of the options:
@@ -57,11 +58,12 @@ e - Exit application");
                 switch (optionSelected.ToUpper().Trim())
                 {
                     case "M":
-                        Console.WriteLine("You've picked M");
+                        Console.Clear();
+                        menu.showMenu();
                         selected = true;
                         break;
                     case "E":
-                        Console.WriteLine("You've picked E");
+                        Environment.Exit(0);
                         selected = true;
                         break;
                     default:
