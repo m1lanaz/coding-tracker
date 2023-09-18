@@ -56,15 +56,6 @@ namespace coding_tracker
 
                     // Execute the INSERT statement
                     int rowsAffected = insertCommand.ExecuteNonQuery();
-
-                    if (rowsAffected > 0)
-                    {
-                        Console.WriteLine("Data inserted successfully!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Data insertion failed.");
-                    }
                 }
             }
         }
